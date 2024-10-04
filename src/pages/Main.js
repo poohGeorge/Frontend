@@ -35,7 +35,7 @@ export default function Main() {
       key:5,
       label: getItem("AIMediaEditor")
     },
-  ]
+  ];
   return (
     <Layout>
       <Header
@@ -48,7 +48,7 @@ export default function Main() {
           <Menu
             theme="dark"
             mode="horizontal"
-            defaultSelectedKeys={['1']}
+            defaultSelectedKeys={['3  ']}
             items={items()}
             style={{
               flex: 1,
