@@ -1,0 +1,124 @@
+.layout {
+    textAlign: 'center',
+}
+.google_font {
+    color: rgb(32, 33, 36);
+    font-family: "Google Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 24px 24px 24px;
+}
+
+.explain_font {
+    color: rgb(95, 99, 104);
+    font-size: 12px;
+    letter-spacing: .3px;
+    line-height: 16px;
+    padding: 24px 0 0;
+}
+
+.top_div {
+    width: 100%;
+    height: 100px;
+}
+
+.lang_div {
+    width: 75%;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+}
+
+.button_group {
+    width: 75%;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+}
+.child_div_1 {
+    width: '10%';
+    align-items: 'center';
+    justify-content: 'center';
+    flex-direction: 'column';
+    /* padding-left: 20%; */
+}
+.child_div_2 {
+    width: '10%';
+    align-items: 'center';
+    justify-content: 'center';
+    flex-direction: 'column';
+    padding-right: 20%;
+}
+
+.hr_line {
+    width: 2px; /* Line thickness */
+    height: 80%; /* Line length */
+    border: none; /* Remove default border */
+    background-color: black; /* Line color */
+    margin: 0 auto; /* Center it horizontally, if needed */
+    transform: translate(-25%, -0%);
+}
+
+.upload_button {
+    width: 50%;
+}
+
+.row_style {
+    background-color: 'tranparent';
+    border: '2px';
+    border-color: grey;
+    padding: '5%';
+    width: "70%"
+}
+
+.button_icon {
+    font-family: "Google Sans", sans-serif;
+    width: 130px;
+    height: 48px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* padding: 10px; */
+    color: blue;
+    border-color: rgb(235, 235, 235);
+    font-size: 15px;
+    border-radius:  5px / 5px;
+    background-color: transparent;
+    
+    /* margin-left: 100%; */
+
+}
+
+.button_icon {
+    font-family: "Google Sans", sans-serif;
+    /* width: 100px; */
+    height: 48px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 8px;
+    color: blue;
+    border-color: rgb(235, 235, 235);
+    font-size: 15px;
+    border-radius:  5px / 5px;
+    background-color: transparent;
+    
+    /* margin-left: 100%; */
+
+}
+
+.lang_button {
+    font-family: "Google Sans", sans-serif;
+    font-size: 50px;
+}
+
+.button_size_2 {
+    width: 130px;
+}
+
+.button_size_1 {
+    width: 100px;
+}
