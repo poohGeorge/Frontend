@@ -129,7 +129,6 @@ export default function MachineTranslator() {
     ];
 
 
-
     return(
         <Tabs defaultActiveKey="1" items={items} onChange={onChange} style={{marginLeft: '15%'}}/>
     )

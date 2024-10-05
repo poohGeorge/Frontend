@@ -57,7 +57,6 @@ export default function Main() {
           />
         </Header>
       <Content>
-        {/* {location.pathname === '/' ? <AISubscriber /> : <Outlet />} */}
         <Outlet />
       </Content>
     </Layout>
