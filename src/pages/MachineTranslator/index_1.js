@@ -1,6 +1,6 @@
 import { Layout, Tabs, Input, Row, Col, Image, Button } from "antd";
 import React from 'react';
- import * as Component from '../../components'
+ import * as Component from '../../components/MachineTranslate'
 
 export default function MachineTranslator() {
     return (
