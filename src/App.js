@@ -2,7 +2,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import Main from './pages/Main'
 import AISubscriber from './pages/AISubscriber'
 import AIMediaGenerator from './pages/AIMediaGenerator'
-import MachineTranslator from './pages/MachineTranslator/index_1'
+import MachineTranslator from './pages/MachineTranslator'
 import AISummarization from './pages/AISummarization'
 import AIMediaEditor from './pages/AIMediaEditor'
 

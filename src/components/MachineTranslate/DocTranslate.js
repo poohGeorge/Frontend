@@ -1,4 +1,4 @@
-import { Layout, Tabs, Input, Row, Col, Image, Button } from "antd";
+import { Layout, Tabs, Input, Row, Col, Image, Button, Upload } from "antd";
 import React from 'react';
 import '../../assets/styles/machineTranslate.css'
 import drag_drop from '../../assets/images/drag_and_drop.png'
@@ -8,9 +8,13 @@ const { Header } = Layout
 const { TextArea } = Input
 
 const DocTranlate = () => {
+
+    const uploadForm = () => {
+
+    }
     return (
         <Layout style={{justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
-                <Row style={{backgroundColor: 'tranparent', border: '1px solid grey', padding: '3%', width: "75%", borderRadius: '2% / 5%'}}>
+                <Row style={{backgroundColor: 'tranparent', border: '1px solid grey', padding: '3%', width: "75%", height: "100%", borderRadius: '2% / 5%'}}>
                     <Col style={{
                         width: '45%',
                         justifyContent: 'end',  
@@ -37,7 +41,9 @@ const DocTranlate = () => {
                         paddingRight: '5%'
                         }}>
                         <div className="google_font">Or choose a file</div>
-                        <Button type="primary"  className="upload_button">Browse your files</Button>
+                        <Upload className="upload_button">
+                            <Button type="primary">Browse your files</Button>
+                        </Upload>
                         <div className="explain_font">Supported file types:.docx,.PDF,.pptx,.xlsx</div>
                     </Col>
                 </Row>
